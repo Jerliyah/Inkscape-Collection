@@ -1,0 +1,48 @@
+
+
+/* :: Customizer :: */
+body {
+    --roundness: 30px;
+}
+
+/* :: Static Styling :: */
+body {
+    margin: 0;
+    padding:5vh 5vw;
+    background: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.no-js-alert {
+    background: rgba(255,255,255, 0.3);
+    border: 3px solid white;
+    padding: 1em 2em;
+    border-radius: var(--roundness);
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-list > li > img {
+    height: 100px;
+}
+
