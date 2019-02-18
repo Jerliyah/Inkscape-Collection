@@ -15,9 +15,10 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    box-sizing: border-box;
 }
 
-h1, p {
+h1, h2, p {
     margin: 0;
     padding: 0.5em 0;
 }
